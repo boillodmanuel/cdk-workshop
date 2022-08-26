@@ -94,8 +94,9 @@ jest "--silent" "false" ".\\test\\hitcounter.test.ts
 
 - [lambda deployment](https://docs.aws.amazon.com/lambda/latest/dg/typescript-package.html)
 - [lambda typescript](https://docs.aws.amazon.com/lambda/latest/dg/typescript-handler.html)
-- 
 - [AWS SDK for JavaScript](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/welcome.html)
+
+## Misc
 
 - search `APIGatewayEvent` in code: [programcreek](https://www.programcreek.com/typescript/?api=aws-lambda.APIGatewayEvent)
 
@@ -103,5 +104,5 @@ jest "--silent" "false" ".\\test\\hitcounter.test.ts
 # Testing
 
 ```bash
-FOR /L %N IN () DO curl https://02ap4r1n78.execute-api.us-west-2.amazonaws.com/prod/
+FOR /L %N IN () DO curl  <URL>
 ```
